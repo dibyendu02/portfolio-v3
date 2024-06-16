@@ -42,7 +42,7 @@ const TechStackCard = ({ stack }: { stack: string }) => {
   );
 };
 
-const page = () => {
+const Page = () => {
   useEffect(() => {
     const handleScroll = (event: WheelEvent) => {
       const scrollSpeed = 0.3; // Adjust this value to control scroll speed
@@ -115,4 +115,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
